@@ -1,6 +1,6 @@
 # DeloreanSHOP
 
-Tienda en línea de DMC-12 personalizados (Time Machine, clásicos, eléctricos y off-road).
+Tienda en línea de DMC-12 personalizados (Time Machine, clásicos, custom).
 React + Vite + Tailwind CSS. Pedidos por WhatsApp.
 
     npm install
