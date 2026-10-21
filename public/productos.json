@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "nombre": "DMC-12 Time Machine",
+    "categoria": "pelicula",
+    "precio": "280000000",
+    "imagen": "/img/deloreanbf1.png",
+    "opciones": [
+      "Mr. Fusion",
+      "Plutonio 1985"
+    ],
+    "nuevo": true,
+    "descripcion": "Réplica del DMC-12 de Regreso al Futuro con condensador de flujo, cableado exterior y panel temporal funcional."
+  },
+  {
+    "id": 2,
+    "nombre": "Time Machine 2015",
+    "categoria": "pelicula",
+    "precio": "350000000000",
+    "imagen": "/img/time-machine.webp",
+    "opciones": [
+      "Hover 2015",
+      "Hover Mr. Fusion"
+    ],
+    "nuevo": true,
+    "descripcion": "La versión 2015: ruedas que se pliegan, modo hover y acabado de acero pulido."
+  },
+  {
+    "id": 3,
+    "nombre": "Time Machine Old West",
+    "categoria": "pelicula",
+    "precio": "490000000000",
+    "imagen": "/img/deloreanbf3.png",
+    "opciones": [
+      "Neumáticos blancos",
+      "Ruedas de carreta"
+    ],
+    "nuevo": false,
+    "descripcion": "Pintura envejecida del Salvaje Oeste de 1885, con ruedas de cubierta y tubo de escape reforzado."
+  },
+  {
+    "id": 4,
+    "nombre": "DMC-12 Clásico Acero",
+    "categoria": "clasico",
+    "precio": "420000000",
+    "imagen": "/img/deloreanori.jpg",
+    "opciones": [
+      "Manual 5 vel.",
+      "Automático"
+    ],
+    "nuevo": false,
+    "descripcion": "El DMC-12 original en acero inoxidable cepillado con puertas de ala de gaviota restauradas."
+  },
+  {
+    "id": 5,
+    "nombre": "DMC-12 Negro Mate",
+    "categoria": "clasico",
+    "precio": 460000000,
+    "imagen": "/img/blackdelorean.jpg",
+    "opciones": [
+      "Interior gris",
+      "Interior rojo"
+    ],
+    "nuevo": true,
+    "descripcion": "Acero envuelto en negro mate, llantas bronce y detalles cromados."
+  },
+  {
+    "id": 6,
+    "nombre": "DMC-12 Gold Edition",
+    "categoria": "clasico",
+    "precio": "980000000000",
+    "imagen": "/img/Gold-D.jpg",
+    "opciones": [
+      "Número 1/100",
+      "Número 2/100"
+    ],
+    "nuevo": false,
+    "descripcion": "Edición limitada con baño de oro de 24 quilates en molduras y rines."
+  },
+  {
+    "id": 7,
+    "nombre": "DMC-12 Eléctrico time machine Black",
+    "categoria": "Personalizados",
+    "precio": 640000000,
+    "imagen": "/img/deloreanblack.jpg",
+    "opciones": [
+      "Time Machine + periféricos custom",
+      "80 kWh"
+    ],
+    "nuevo": true,
+    "descripcion": "Conversión eléctrica con motor de 230 kW, batería de 80 kWh y 450 km de autonomía."
+  }
+]

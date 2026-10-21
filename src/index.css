@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-titulo: "Archivo", sans-serif;
+  --font-sans: "Roboto", system-ui, sans-serif;
+  --color-acero-50: #f1f4f7;
+  --color-acero-200: #d3dae2;
+  --color-acero-700: #3a4654;
+  --color-acero-900: #0d1218;
+  --color-flux-500: #34c3ff;
+  --color-flux-600: #0ea5e9;
+  --color-fuego-500: #ff7a1a;
+  --color-fuego-600: #e5620a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-titulo {
+  font-weight: 900;
+  font-stretch: 125%;
+}
