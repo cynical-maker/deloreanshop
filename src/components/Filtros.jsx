@@ -2,19 +2,19 @@ const CATEGORIAS = [
   ['todos', 'Todos'],
   ['pelicula', 'Película'],
   ['clasico', 'Clásicos'],
-  ['Personalizados', 'Personalizados']
+  ['Personalizados', 'Personalizados'],
 ]
 
 function Filtros({ categoria, busqueda, orden, onCategoria, onBusqueda, onOrden }) {
   const campo = 'rounded-lg border border-acero-200 bg-white px-3 py-2 text-sm outline-none focus:border-flux-600'
   return (
     <div className="mt-6 flex flex-col gap-4">
-      <div className="flex flex-wrap gap-2">
+      <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1">
         {CATEGORIAS.map(([valor, texto]) => (
           <button
             key={valor}
             onClick={() => onCategoria(valor)}
-            className={`rounded-full px-4 py-1.5 text-sm font-medium ${
+            className={`shrink-0 rounded-full px-4 py-1.5 text-sm font-medium whitespace-nowrap ${
               categoria === valor ? 'bg-acero-900 text-white' : 'bg-white text-acero-700 hover:bg-acero-200'
             }`}
           >
@@ -38,4 +38,5 @@ function Filtros({ categoria, busqueda, orden, onCategoria, onBusqueda, onOrden 
     </div>
   )
 }
+
 export default Filtros

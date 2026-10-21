@@ -22,11 +22,11 @@ function Encabezado({ cantidad, onAbrirCarrito, transparente }) {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
         <a href="#/" aria-label="DeloreanSHOP, inicio">
-          <img src="/img/logo-cabecera.png" alt="DeloreanSHOP" className="h-8 w-auto md:h-10" />
+        <img src="/img/logo-cabecera.png" alt="DeloreanSHOP" className="h-7 w-auto sm:h-8 md:h-10" />
         </a>
         <button
           onClick={onAbrirCarrito}
-          className="rounded-full border-2 border-white bg-transparent px-4 py-2 text-sm font-semibold text-white uppercase transition hover:bg-white hover:text-acero-900"
+          className="rounded-full border-2 border-white bg-transparent px-3 py-1.5 text-xs font-semibold text-white uppercase transition hover:bg-white hover:text-acero-900 sm:px-4 sm:py-2 sm:text-sm"
         >
           Garaje ({cantidad})
         </button>

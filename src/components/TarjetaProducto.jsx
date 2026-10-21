@@ -18,10 +18,12 @@ function TarjetaProducto({ producto, onVerDetalle }) {
           </span>
         )}
       </div>
-      <div className="p-4">
-        <p className="text-xs font-semibold tracking-wide text-flux-600 uppercase">{producto.categoria}</p>
-        <h3 className="mt-1 font-bold text-acero-900">{producto.nombre}</h3>
-        <p className="mt-1 text-lg font-semibold">{pesos(producto.precio)}</p>
+      <div className="p-3 sm:p-4">
+        <p className="text-[10px] font-semibold tracking-wide text-flux-600 uppercase sm:text-xs">
+          {producto.categoria}
+        </p>
+        <h3 className="mt-1 text-sm font-bold text-acero-900 sm:text-base">{producto.nombre}</h3>
+        <p className="mt-1 text-sm font-semibold sm:text-lg">{pesos(producto.precio)}</p>
       </div>
     </button>
   )

@@ -79,7 +79,7 @@ function App() {
       />
 
       {enCatalogo ? (
-        <main className="mx-auto max-w-6xl px-4 pt-28 pb-16">
+        <main className="mx-auto max-w-6xl px-4 pt-24 pb-16 md:pt-28">
           <h1 className="font-titulo text-3xl text-acero-900">Catálogo</h1>
           <Filtros categoria={categoria} busqueda={busqueda} orden={orden} onCategoria={setCategoria} onBusqueda={setBusqueda} onOrden={setOrden} />
           <ListaProductos productos={visibles} onVerDetalle={setDetalle} />
